@@ -132,7 +132,7 @@ export default function Projects() {
 
 
 
-          <div className="project3 flex flex-col md:flex-row my-4 border-b-[1px] border-black pb-4">
+          <div className="project4 flex flex-col md:flex-row my-4 border-b-[1px] border-black pb-4">
             <div className="flex justify-center">
               <motion.div className="image w-[40vw] h-[40vw] md:w-[15vw] md:h-[16vw] border-2 border-black mx-4"
                 initial={{ scaleX: 1 }}
