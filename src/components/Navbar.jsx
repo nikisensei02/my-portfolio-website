@@ -19,7 +19,7 @@ export default function Navbar() {
             </div>
             <div className="name text-white flex">
               <p className='text-purple-500 mx-2'>{"{ / }"}</p>
-              <Link to="/">NIKSHEP Portfolio</Link>
+              <Link to="/">NIKSHEP</Link>
             </div>
           </div>
           <div className="pages">
