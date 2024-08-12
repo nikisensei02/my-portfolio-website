@@ -6,10 +6,12 @@ import Home from './components/home/Home';
 import Projects from './components/project/Projects';
 import Social from './components/social/Social';
 import Contact from './components/Contact';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <Social/>
       <Navbar/>
       <Routes>
