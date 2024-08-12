@@ -184,8 +184,8 @@ export default function Home() {
           </div>
 
           <div ref={ref2} className="md:ml-[40vw] px-[22vw] md:pl-[0] content md:border-t-[1px] flex items-center md:w-[50vw] py-2 overflow-scroll md:overflow-visible">
-
-            <motion.div className="card1 mx-1 border-2 p-2 rounded-md min-w-[55vw] md:min-w-[14vw] h-[75vw] md:h-[19vw]"
+            {/* personal Portfoio Card */}
+            <motion.div className="card1 mx-1 border p-2 rounded-md min-w-[55vw] md:min-w-[14vw] h-[80vw] md:h-[21vw]"
               variants={{
                 hidden: { opacity: 0, y: 100 },
                 visible: { opacity: 1, y: 0 }
@@ -201,12 +201,12 @@ export default function Home() {
                 <p className='text-center text-xl md:text-sm p-2'>
                   Personal Portfolio
                 </p>
-                <div className="image">
-                  <img src={project11} alt="" />
-                  <img src={project12} alt="" />
+                <div className="image bg-white ">
+                  <img src={project11} alt="" className=''/>
+                  <img src={project12} alt="" className=''/>
                 </div>
-                <div className="button flex justify-center mt-7 md:mt-2 text-sm">
-                  <Link to="/">
+                <div className="button flex justify-around items-center mt-4 md:mt-2 text-sm">
+                  <Link to="/" className=''>
                     <button className='py-[1px] px-6 md:px-6 rounded-full border-purple-500 border-[1px] hover:bg-white hover:text-purple-500 w-fit' onClick={reloadToHome}>Link</button>
                   </Link>
                   <a href="https://github.com/nikisensei02/Portfolio-website" className='ml-4' target='blank'>
@@ -217,8 +217,7 @@ export default function Home() {
               </div>
             </motion.div>
 
-
-            <motion.div className="card2 mx-1 border-2 rounded-md min-w-[55vw] md:min-w-[12vw] p-2 h-[75vw] md:h-[19vw]"
+            <motion.div className="card2 mx-1 border p-2 rounded-md min-w-[55vw] md:min-w-[14vw] h-[80vw] md:h-[21vw]"
               variants={{
                 hidden: { opacity: 0, y: 100 },
                 visible: { opacity: 1, y: 0 }
@@ -234,10 +233,10 @@ export default function Home() {
                 <p className='text-center text-xl md:text-sm p-2 '>
                   Anime Realm
                 </p>
-                <div className="image">
-                  <img src={project41} alt="" />
+                <div className="image ">
+                  <img src={project41} alt="" className=''/>
                 </div>
-                <div className="button flex justify-center mt-4 md:mt-6 text-sm">
+                <div className="button flex justify-around items-center mt-4 md:mt-2 text-sm">
                   <button className='py-[1px] px-6 md:px-6 rounded-full border-purple-500 border-[1px] hover:bg-white hover:text-purple-500 w-fit'>
                     <a href="https://667ee9612d3c734c6e7b655d--quiet-praline-05821d.netlify.app/" target='blank'>
                       Link
@@ -250,7 +249,7 @@ export default function Home() {
               </div>
             </motion.div>
 
-            <motion.div className="card3 mx-1 border-2 rounded-md min-w-[55vw] md:min-w-[12vw] p-2 h-[75vw] md:h-[19vw]"
+            <motion.div className="card3 mx-1 border p-2 rounded-md min-w-[55vw] md:min-w-[14vw] h-[80vw] md:h-[21vw]"
               variants={{
                 hidden: { opacity: 0, y: 100 },
                 visible: { opacity: 1, y: 0 }
@@ -266,10 +265,10 @@ export default function Home() {
                 <p className='text-center text-xl md:text-sm p-2'>
                   Wordle6
                 </p>
-                <div className="image">
+                <div className="image ">
                   <img src={project33} alt="" />
                 </div>
-                <div className="button flex justify-center mt-10 md:mt-10 text-sm">
+                <div className="button flex justify-around items-center mt-4 md:mt-2 text-sm">
                   <button className='py-[1px] px-6 md:px-6 rounded-full border-purple-500 border-[1px] hover:bg-white hover:text-purple-500 w-fit'>
                     <a href="https://6649b1663800ea82e82b9621--friendly-druid-fa289a.netlify.app/" target='blank'>
                       Link
