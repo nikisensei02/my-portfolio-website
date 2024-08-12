@@ -4,7 +4,7 @@ import project12 from './project1-2.png'
 import project33 from './project3-3.png'
 import project23 from './project2-3.png'
 import project41 from './project4-1.png'
-import project51 from './project5-1.png'
+import project51 from './project5.png'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 export default function Projects() {
