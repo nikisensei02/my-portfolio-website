@@ -4,6 +4,7 @@ import project12 from './project1-2.png'
 import project33 from './project3-3.png'
 import project23 from './project2-3.png'
 import project41 from './project4-1.png'
+import project51 from './project5-1.png'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 export default function Projects() {
@@ -25,10 +26,10 @@ export default function Projects() {
 
         <div className="item w-[90vw] flex flex-col items-center md:w-full">
 
-
+          {/* personal portfolio */}
           <div className="project1 flex flex-col md:flex-row my-4 border-b-[1px] border-black pb-4">
             <div className='flex justify-center '>
-              <motion.div className="image w-[40vw] h-[40vw] md:w-[15vw] md:h-[16vw]   mx-4"
+              <motion.div className="image w-[40vw] h-[45vw]  md:w-[15vw] md:h-[17vw] mx-4"
                 initial={{ scaleX: 0 }}
                 animate={{ scaleX: 1 }}
                 transition={{
@@ -78,10 +79,10 @@ export default function Projects() {
             </motion.div>
           </div>
 
-
+          {/* Anime Realm */}
           <div className="project2 flex flex-col md:flex-row my-4 border-b-[1px] border-black pb-4">
             <div className="flex justify-center">
-              <motion.div className="image w-[40vw] h-[40vw] md:w-[15vw] md:h-[16vw] border-2 border-black mx-4"
+              <motion.div className="image w-[40vw] h-[45vw] md:w-[15vw] md:h-[17vw] mx-4"
                 initial={{ scaleX: 1 }}
                 animate={{ scaleX: 1 }}
                 transition={{
@@ -119,7 +120,7 @@ export default function Projects() {
                 </p>
                 <div className='flex items-center'>
                   <div className="flex justify-center mt-2 p-[2px] w-[70vw]  md:w-[8vw] text-lg text-black mx-2 border-2 border-black rounded-2xl cursor-pointer hover:bg-black hover:text-white">
-                    <a href="https://667ee9612d3c734c6e7b655d--quiet-praline-05821d.netlify.app/" target='blank'>Visit</a>
+                    <a href="https://anime-realm-app.netlify.app/" target='blank'>Visit</a>
                   </div>
                   <a href="https://github.com/nikisensei02/Anime-Realm-Blogging-platform/tree/main/Anime%20Realm" className='ml-4 mt-2' target='blank'>
                     <i className="fa-brands fa-github md:fa-lg fa-2xl"></i>
@@ -130,11 +131,62 @@ export default function Projects() {
             </motion.div>
           </div>
 
+          {/* Local Shop Management */}
+          <div className="project2 flex flex-col md:flex-row my-4 border-b-[1px] border-black pb-4">
+            <div className="flex justify-center">
+              <motion.div className="image w-[40vw] h-[45vw] md:w-[15vw] md:h-[17vw] mx-4"
+                initial={{ scaleX: 1 }}
+                animate={{ scaleX: 1 }}
+                transition={{
+                  duration: 0.5
+                }}
+                exit={{ scaleX: 1, border: 'none' }}
+              >
+                <img src={project51} alt="" />
+              </motion.div>
+            </div>
 
+            <motion.div className="description flex text-sm md:w-[40vw] mx-4"
+              initial={{ scaleY: 0 }}
+              animate={{ scaleY: 1 }}
+              transition={{
+                duration: 0.5
+              }}
+              exit={{ scaleX: 1, border: 'none' }}
+            >
+              <div>
+                <p className='font-semibold m-2 text-lg'>
+                  Anime Realm
+                </p>
+                <p className='flex m-2'>
+                  <p className='font-semibold mx-2'>Description:</p>
+                  <p className='font-light'>
+                    A Blogging website using React, mongodB.
+                    Explore reviews, episode recaps, character analyses, news, and community discussions.
+                    Connect with fans and dive into anime culture!
+                  </p>
+                </p>
+                <p className='mt-2'>
+                  <p className='font-semibold mx-2'>Technologies Used:</p>
+                  <p className='font-bold mx-2'>React, mongodB, Express, Node.js, JavaScript, TailwindCSS.</p>
+                </p>
+                <div className='flex items-center'>
+                  <div className="flex justify-center mt-2 p-[2px] w-[70vw]  md:w-[8vw] text-lg text-black mx-2 border-2 border-black rounded-2xl cursor-pointer hover:bg-black hover:text-white">
+                    <a href="https://anime-realm-app.netlify.app/" target='blank'>Visit</a>
+                  </div>
+                  <a href="https://github.com/nikisensei02/Anime-Realm-Blogging-platform/tree/main/Anime%20Realm" className='ml-4 mt-2' target='blank'>
+                    <i className="fa-brands fa-github md:fa-lg fa-2xl"></i>
+                  </a>
+                </div>
+              </div>
 
+            </motion.div>
+          </div>
+
+          {/* Goship */}
           <div className="project4 flex flex-col md:flex-row my-4 border-b-[1px] border-black pb-4">
             <div className="flex justify-center">
-              <motion.div className="image w-[40vw] h-[40vw] md:w-[15vw] md:h-[16vw] border-2 border-black mx-4"
+              <motion.div className="image w-[40vw] h-[45vw] md:w-[15vw] md:h-[17vw] border border-black mx-4"
                 initial={{ scaleX: 1 }}
                 animate={{ scaleX: 1 }}
                 transition={{
@@ -183,10 +235,10 @@ export default function Projects() {
             </motion.div>
           </div>
 
-
+          {/* Wordle6 */}
           <div className="project3 flex flex-col md:flex-row my-4 border-b-[1px] border-black pb-4">
             <div className="flex justify-center">
-              <motion.div className="image w-[40vw] h-[40vw] md:w-[15vw] md:h-[16vw] border-2 border-black mx-4"
+              <motion.div className="image w-[40vw] h-[45vw] md:w-[15vw] md:h-[17vw] border border-black mx-4"
                 initial={{ scaleX: 1 }}
                 animate={{ scaleX: 1 }}
                 transition={{
