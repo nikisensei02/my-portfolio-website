@@ -209,7 +209,7 @@ export default function Home() {
                   <Link to="/" className=''>
                     <button className='py-[1px] px-6 md:px-6 rounded-full border-purple-500 border-[1px] hover:bg-white hover:text-purple-500 w-fit' onClick={reloadToHome}>Link</button>
                   </Link>
-                  <a href="https://github.com/nikisensei02/Portfolio-website" className='ml-4' target='blank'>
+                  <a href="https://github.com/nikisensei02/my-portfolio-website" className='ml-4' target='blank'>
                     <i className="fa-brands fa-github md:fa-lg fa-xl"></i>
                   </a>
                 </div>
@@ -238,11 +238,11 @@ export default function Home() {
                 </div>
                 <div className="button flex justify-around items-center mt-4 md:mt-2 text-sm">
                   <button className='py-[1px] px-6 md:px-6 rounded-full border-purple-500 border-[1px] hover:bg-white hover:text-purple-500 w-fit'>
-                    <a href="https://667ee9612d3c734c6e7b655d--quiet-praline-05821d.netlify.app/" target='blank'>
+                    <a href="https://anime-realm-app.netlify.app/" target='blank'>
                       Link
                     </a>
                   </button>
-                  <a href="https://github.com/nikisensei02/Anime-Realm-Blogging-platform/tree/main/Anime%20Realm" className='ml-4' target='blank'>
+                  <a href="https://github.com/nikisensei02/Anime-Realm-app" className='ml-4' target='blank'>
                     <i className="fa-brands fa-github md:fa-lg fa-xl"></i>
                   </a>
                 </div>

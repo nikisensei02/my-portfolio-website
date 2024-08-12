@@ -29,7 +29,7 @@ export default function Projects() {
           {/* personal portfolio */}
           <div className="project1 flex flex-col md:flex-row my-4 border-b-[1px] border-black pb-4">
             <div className='flex justify-center '>
-              <motion.div className="image w-[40vw] h-[45vw]  md:w-[15vw] md:h-[17vw] mx-4"
+              <motion.div className="image w-[40vw] h-[45vw]  md:w-[15vw] md:h-[17vw] rounded mx-4"
                 initial={{ scaleX: 0 }}
                 animate={{ scaleX: 1 }}
                 transition={{
@@ -69,7 +69,7 @@ export default function Projects() {
                   <div className="flex justify-center mt-2 p-[2px] w-[70vw]  md:w-[8vw] text-lg text-black mx-2 border-2 border-black rounded-2xl cursor-pointer hover:bg-black hover:text-white">
                     <Link to="/" onClick={reloadToHome}><p>Visit</p></Link>
                   </div>
-                  <a href="https://github.com/nikisensei02/Portfolio-website" className='ml-4 mt-2' target='blank'>
+                  <a href="https://github.com/nikisensei02/my-portfolio-website" className='ml-4 mt-2' target='blank'>
                     <i className="fa-brands fa-github md:fa-lg fa-2xl"></i>
                   </a>
                 </div>
@@ -122,7 +122,7 @@ export default function Projects() {
                   <div className="flex justify-center mt-2 p-[2px] w-[70vw]  md:w-[8vw] text-lg text-black mx-2 border-2 border-black rounded-2xl cursor-pointer hover:bg-black hover:text-white">
                     <a href="https://anime-realm-app.netlify.app/" target='blank'>Visit</a>
                   </div>
-                  <a href="https://github.com/nikisensei02/Anime-Realm-Blogging-platform/tree/main/Anime%20Realm" className='ml-4 mt-2' target='blank'>
+                  <a href="https://github.com/nikisensei02/Anime-Realm-app" className='ml-4 mt-2' target='blank'>
                     <i className="fa-brands fa-github md:fa-lg fa-2xl"></i>
                   </a>
                 </div>
@@ -134,7 +134,7 @@ export default function Projects() {
           {/* Local Shop Management */}
           <div className="project2 flex flex-col md:flex-row my-4 border-b-[1px] border-black pb-4">
             <div className="flex justify-center">
-              <motion.div className="image w-[40vw] h-[45vw] md:w-[15vw] md:h-[17vw] mx-4"
+              <motion.div className="image w-[40vw] h-[45vw] md:w-[15vw] border border-black md:h-[17vw] mx-4"
                 initial={{ scaleX: 1 }}
                 animate={{ scaleX: 1 }}
                 transition={{
@@ -156,25 +156,24 @@ export default function Projects() {
             >
               <div>
                 <p className='font-semibold m-2 text-lg'>
-                  Anime Realm
+                  Local Shop Mangement
                 </p>
                 <p className='flex m-2'>
                   <p className='font-semibold mx-2'>Description:</p>
                   <p className='font-light'>
-                    A Blogging website using React, mongodB.
-                    Explore reviews, episode recaps, character analyses, news, and community discussions.
-                    Connect with fans and dive into anime culture!
+                  Built a MERN stack app for users to manage inventory, daily sales, and visualize data through React graphs.
+                  Implemented CRUD operations to streamline inventory management, improving data handling efficiency
                   </p>
                 </p>
                 <p className='mt-2'>
                   <p className='font-semibold mx-2'>Technologies Used:</p>
-                  <p className='font-bold mx-2'>React, mongodB, Express, Node.js, JavaScript, TailwindCSS.</p>
+                  <p className='font-bold mx-2'>React, mongodB, Express, Node.js, JavaScript, TailwindCSS., React-Charts</p>
                 </p>
                 <div className='flex items-center'>
                   <div className="flex justify-center mt-2 p-[2px] w-[70vw]  md:w-[8vw] text-lg text-black mx-2 border-2 border-black rounded-2xl cursor-pointer hover:bg-black hover:text-white">
-                    <a href="https://anime-realm-app.netlify.app/" target='blank'>Visit</a>
+                    <a href="https://localshopserver.netlify.app/" target='blank'>Visit</a>
                   </div>
-                  <a href="https://github.com/nikisensei02/Anime-Realm-Blogging-platform/tree/main/Anime%20Realm" className='ml-4 mt-2' target='blank'>
+                  <a href="https://github.com/nikisensei02/local-shop-management/" className='ml-4 mt-2' target='blank'>
                     <i className="fa-brands fa-github md:fa-lg fa-2xl"></i>
                   </a>
                 </div>
